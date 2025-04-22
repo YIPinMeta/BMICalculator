@@ -1,8 +1,8 @@
-BMI Calculator in Java
-This is a simple Java program that calculates a person's Body Mass Index (BMI) based on user input. It then interprets the result and categorizes it into underweight, normal weight, overweight, or obese.
+BMI Calculator
+A simple Java console application that calculates your Body Mass Index (BMI) based on your weight and height, and provides a health classification based on the result.
 
-Features
-Takes user input for weight (in kilograms) and height (in meters)
+📋 Features
+Accepts weight in kilograms and height in meters as input
 
 Calculates BMI using the formula:
 
@@ -18,7 +18,7 @@ height
 weight
 ​
  
-Categorizes BMI according to standard health guidelines:
+Provides BMI interpretation:
 
 Underweight: BMI < 18.5
 
@@ -28,35 +28,41 @@ Overweight: 25 ≤ BMI < 29.9
 
 Obese: BMI ≥ 30
 
-Getting Started
-Prerequisites
-Java Development Kit (JDK) installed on your system
+🚀 Getting Started
+Requirements
+Java installed (JDK 8 or higher)
 
 How to Compile
-Navigate to the folder containing the BMICalc.java file and compile the program using:
-
 bash
 Copy code
 javac BMICalc.java
 How to Run
-Once compiled, run the program with:
-
 bash
 Copy code
 java BMICalc
-Sample Usage
-plaintext
+🖥️ Example
+yaml
 Copy code
-Enter your weight in kilograms: 70
-Enter your height in meters: 1.75
-Your BMI is: 22.857142857142858
+Enter your weight in kilograms: 68
+Enter your height in meters: 1.70
+Your BMI is: 23.529411764705884
 You have a normal weight.
-Code Highlights
-Uses Scanner for user input
+💡 How It Works
+The program prompts the user to input their weight and height.
 
-Includes proper BMI classification with conditionals
+It calculates the BMI using the formula.
 
-Closes the scanner to avoid resource leaks
+Based on the BMI value, it categorizes the user's weight status.
 
-License
-This project is open source and available under the MIT License.# BMICalculator
+🧠 Tip
+To improve or expand the program:
+
+Add input validation (e.g., check for negative numbers)
+
+Support imperial units (pounds and inches)
+
+Round the BMI result to 2 decimal places for clarity
+
+📄 License
+This project is licensed under the MIT License.
+
