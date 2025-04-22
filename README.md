@@ -40,6 +40,7 @@ How to Run
 bash
 Copy code
 java BMICalc
+
 🖥️ Example
 yaml
 Copy code
